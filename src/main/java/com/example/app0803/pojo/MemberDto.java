@@ -21,7 +21,7 @@ public class MemberDto {
 
 
 
-    public Member toEntity() {
+    public  Member toEntity() {
         return Member.builder()
                 .id(id)
                 .username(username)
